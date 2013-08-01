@@ -7,7 +7,7 @@ block content
 
       div
         .hero-unit
-          h2 Schön, dass Du vorbeischaust.
+          h2 #{uiString('index.hero1.title')}
           p Die Softwerkskammer hat sich 2011 gegründet, um den Austausch Interessierter zum Thema Software Craftsmanship
             | zu vereinfachen.
           p Diese Site ist unsere zentrale Anlaufstelle für die lokalen Software Craftsmanship Communities in Deutschland, Österreich und der Schweiz.
@@ -21,7 +21,7 @@ block content
 
       div
         .hero-unit
-          h2 Wir sind …
+          h2 #{uiString('index.hero2.title')}
           p … ein Zusammenschluss von Communities of Professionals, die über den ganzen deutschsprachigen Raum verteilt sind. Uns geht es darum, gute Software
             | zu entwickeln, und zwar im Hinblick auf alle Aspekte.
           p Wir möchten
@@ -39,7 +39,7 @@ block content
 
       div
         .hero-unit
-          h2 Die Softwerkskammer ist etwas für Dich,
+          h2 #{uiString('index.hero3.title')}
           p wenn
           ul
             li Softwareentwicklung für Dich eine Leidenschaft bedeutet.
@@ -58,5 +58,5 @@ block content
         li(onclick='mySwipe.slide(2);')
 
   div(style='text-align:center;padding-top:20px;')
-    button(class='btn', onclick='mySwipe.prev()') zurück
-    button(class='btn', onclick='mySwipe.next()') vor
+    button(class='btn', onclick='mySwipe.prev()') #{uiString('navigation.buttons.back')}
+    button(class='btn', onclick='mySwipe.next()') #{uiString('navigation.buttons.next')}

@@ -65,6 +65,7 @@
   "fieldHelpers": {"module": "./lib/commons/fieldHelpers"},
   "validation": {"module": "./lib/commons/validation"},
   "misc": {"module": "./lib/commons/misc"},
+  "uiString": {"module": "./lib/commons/uiString"},
   "sympaTransformer": {"module": "./lib/groups/sympaTransformer"},
   "redirectRuleForNewUser": {"module": "./lib/middleware/redirectRuleForNewUser"},
   "secureByLogin": {"module": "./lib/middleware/secureByLogin"},
