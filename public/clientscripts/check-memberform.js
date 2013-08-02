@@ -32,8 +32,8 @@ var initValidator = function () {
         },
         messages: {
           nickname: {
-            remote: $.validator.format("Dieser Nickname ist leider nicht verfügbar."),
-            alphanumeric: $.validator.format("Nickname darf nur Buchstaben, Zahlen und Unterstrich enthalten.")
+            remote: strings.members.validation.nickname.unavailable,
+            alphanumeric: strings.members.validation.nickname.must_be_alphanumeric
           }
         },
         errorElement: "span",
